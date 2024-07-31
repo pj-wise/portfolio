@@ -5,8 +5,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   dataabout,
   meta,
-  worktimeline,
-  skills,
   services,
 } from "../../content_option";
 
@@ -42,7 +40,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">Past Work</h3>
+            <h3 className="color_sec py-4">Previous Work</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
