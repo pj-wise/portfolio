@@ -69,6 +69,17 @@ section {
   }
 }
 
+@media (max-width: 991.98px) {
+  .intro_btn-action {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ac_btn {
+    margin-top: 1rem;
+  }
+}
+
 .intro_sec .intro .feature .wrap-icon {
   background: 0 0 !important;
   width: auto;

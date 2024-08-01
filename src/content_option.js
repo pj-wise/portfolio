@@ -9,11 +9,11 @@ const introdata = {
   title: "Pearl (PJ) Wise",
   animated: {
     first: "Software Engineer",
-    second: "Florida Based Car Enthusiast",
+    second: "Florida Based Car Lover",
     third: "Frontend > Backend",
   },
   description:
-    "Please take a look at some of my previous freelance/personal projects or contact me below! (:",
+    "Take a look at some of my previous freelance/personal projects, resume or contact me below! (:",
   your_img_url: "/assets/beachdaydev.jpg",
 };
 
