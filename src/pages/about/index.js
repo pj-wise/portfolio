@@ -2,11 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  dataabout,
-  meta,
-  services,
-} from "../../content_option";
+import { dataabout, meta, services } from "../../content_option";
 
 export const About = () => {
   return (
@@ -34,12 +30,16 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="9">
-            <img src="https://ghchart.rshah.org/0c0c0c/pj-wise" alt="GH" />
+          <Col lg="12">
+            <img
+              style={{ width: "100%" }}
+              src="https://ghchart.rshah.org/409ba5/pj-wise"
+              alt="GH"
+            />
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lang="5">
+          {/* <Col lang="5">
             <h3 className="color_sec py-4">Previous Work</h3>
           </Col>
           <Col lg="7">
@@ -51,7 +51,7 @@ export const About = () => {
                 </div>
               );
             })}
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </HelmetProvider>

@@ -4,7 +4,7 @@
   --secondary-color: #fff;
   --text-color: #fff;
   --text-color-2: #fff;
-  --text-color-3: rgb(204, 0, 0);
+  --text-color-3: rgb(2, 212, 223);
   --overlay-color: rgb(12 12 12 / 63%);
 }
 
@@ -14,7 +14,7 @@
   --secondary-color: #000;
   --text-color: #000;
   --text-color-2: #000;
-  --text-color-3: rgb(204, 0, 0);
+  --text-color-3: rgb(2, 212, 223);
   --overlay-color: rgb(255 255 255 / 70%);
 }
 
@@ -30,7 +30,7 @@ body {
   overflow-y: visible;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-top: 60px;
@@ -71,7 +71,8 @@ p {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .cursor__dot div {
@@ -93,4 +94,8 @@ code {
 
 .color_sec {
   color: var(--secondary-color);
+}
+
+.color_ter {
+  color: var(--text-color-3);
 }
